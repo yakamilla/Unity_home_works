@@ -1,0 +1,26 @@
+using System;
+					
+public class Program
+{
+	string name = "По умолчанию";
+	string name2 = "По умолчанию";
+	string name3 = "По умолчанию";
+	string name4 = "По умолчанию";
+	
+	public void Main()
+	{
+		Console.WriteLine("Введите своё имя: ");
+		name = Console.ReadLine();
+		Console.WriteLine ("Привет " +name);
+		Console.WriteLine ("Сколько Вам лет? ");
+		name2 = Console.ReadLine();
+		Console.WriteLine ("Каково(вы) Ваше хобби? ");
+		name3 = Console.ReadLine();
+		Console.WriteLine ("Очень интересно " +name);
+		Console.WriteLine ("Какого Вы пола? Мужского или женского?");
+		name4 = Console.ReadLine();
+		Console.Write ("Значит Вас зовут " +name+ " и Вам "+name2+ " лет. Ваше(и) хобби это "+name3+"\n" + "А также Вы "+name4+ " пола. Это очень круто, а ещё круто, что написалась эта программа :) ");
+		
+		
+	}
+}
