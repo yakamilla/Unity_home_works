@@ -1,0 +1,42 @@
+using System;
+					
+public class Program
+{
+		int [,] myMassive = new int [3,3];
+	
+	public void Main()
+	{
+		Console.WriteLine("Введите числа от 1 до 9: ");
+		int index = int.Parse(Console.ReadLine());
+		int index2 = int.Parse(Console.ReadLine());
+		int index3 = int.Parse(Console.ReadLine());
+		int index4 = int.Parse(Console.ReadLine());
+		int index5 = int.Parse(Console.ReadLine());
+		int index6 = int.Parse(Console.ReadLine());
+		int index7 = int.Parse(Console.ReadLine());
+		int index8 = int.Parse(Console.ReadLine());
+		int index9 = int.Parse(Console.ReadLine());
+
+		
+		Console.Write(myMassive[0,0]=index);
+		Console.Write(" | ");
+		Console.Write(myMassive[0,0]=index2);
+		Console.Write(" | ");
+		Console.Write(myMassive[0,0]=index3);
+		Console.WriteLine(" | ");
+		Console.Write(myMassive[0,0]=index4);
+		Console.Write(" | ");
+		Console.Write(myMassive[0,0]=index5);
+		Console.Write(" | ");
+		Console.Write(myMassive[0,0]=index6);
+		Console.WriteLine(" | ");
+		Console.Write(myMassive[0,0]=index7);
+		Console.Write(" | ");
+		Console.Write(myMassive[0,0]=index8);
+		Console.Write(" | ");
+		Console.Write(myMassive[0,0]=index9);
+		Console.Write(" | ");
+		
+
+		}
+			  }
