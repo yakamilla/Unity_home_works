@@ -1,0 +1,22 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Введите первое число");
+		int a = int.Parse(Console.ReadLine());
+		Console.WriteLine("Введите знак оператора (+;-;*;/) : ");
+		string z = Console.ReadLine();
+		Console.WriteLine("Введите второе число");
+		int b = int.Parse(Console.ReadLine());
+				 if (z == "*")
+                     Console.WriteLine(a * b);
+                 if (z == "/")
+                     Console.WriteLine(a / b);
+                 if (z == "+")
+                     Console.WriteLine(a + b);
+                 if (z == "-")
+                     Console.WriteLine(a - b);
+	}
+}
